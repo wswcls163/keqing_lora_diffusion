@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ## 三、结果展示
 ## 📊 训练数据集示例
 <p align="center">
-  <img src="keqing_dataset/keqing_01.png" width="45%" alt="刻晴训练图1">
+  <img src="keqing_dataset/keqing_08.png" width="45%" alt="刻晴训练图1">
   <img src="keqing_dataset/keqing_02.png" width="45%" alt="刻晴训练图2">
 </p>
 因为我的电脑配置很一般(NVIDIA GeForce RTX 3050 Laptop GPU)，显存只有4G，所以生成的图像质量平均质量一般。
