@@ -24,7 +24,7 @@ pip install -r requirements.txt
 因为我的电脑配置很一般(NVIDIA GeForce RTX 3050 Laptop GPU)，显存只有4G，所以生成的图像质量平均质量一般。
 接下来我会展现用了lora微调生成的图像和用了lora微调生成的图像
 
-### 有无Lora微调对比
+### 3.1有无Lora微调对比
 <p align="center">
 <table>
   <tr>
@@ -37,3 +37,14 @@ pip install -r requirements.txt
   </tr>
 </table>
 </p>
+
+## 四、做的优化
+能生成这么好的图像不仅仅只是因为使用了Lora微调，因为我的电脑显存只有4G，所以我还使用了混合精度、梯度累积步数、梯度检查等用时间换显存的优化方法。具体代码如下：
+```python
+train_batch_size = 1 //因为4G显存太小，只能一张图片一张图片输入
+gradient_accumulation_step = 4 //这样可以等价于train_batch_size = 4
+lr = scheduler = "cosine"
+gradient_checkpointing = True//梯度检查
+mix_precision = "fp16"
+```
+
