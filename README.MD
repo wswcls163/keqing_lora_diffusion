@@ -23,6 +23,7 @@ pip install -r requirements.txt
 </p>
 因为我的电脑配置很一般(NVIDIA GeForce RTX 3050 Laptop GPU)，显存只有4G，所以生成的图像质量平均质量一般。
 接下来我会展现用了lora微调生成的图像和用了lora微调生成的图像
+
 ### 有无Lora微调对比
 <p align="center">
 <table>
