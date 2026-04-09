@@ -25,12 +25,12 @@ pip install -r requirements.txt
 接下来我会展现用了lora微调生成的图像和用了lora微调生成的图像
 ### 有无Lora微调对比
 <p align="center">
-  <img src="keqing_dataset/keqing_08.png" width="45%" alt="刻晴训练图1">
+  <img src="keqing_generate/keqing_generate06.png" width="45%" alt="刻晴训练图1">
   <br>
   <strong>无Lora</strong>
 </p>
 <p align="center">
-  <img src="keqing_dataset/keqing_02.png" width="45%" alt="刻晴训练图2">
+  <img src="keqing_generate/keqing_generate02.png" width="45%" alt="刻晴训练图2">
   <br>
   <strong>有Lora</strong>
 </p>
