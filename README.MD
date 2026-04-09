@@ -27,8 +27,8 @@ pip install -r requirements.txt
 <p align="center">
 <table>
   <tr>
-    <td align="center"><img src="keqing_generate/keqing_generate06.png" width="100%"></td>
-    <td align="center"><img src="keqing_generate/keqing_generate02.png" width="100%"></td>
+    <td align="center"><img src="keqing_generate/keqing_generate06.png" width="45%"></td>
+    <td align="center"><img src="keqing_generate/keqing_generate02.png" width="45%"></td>
   </tr>
   <tr>
     <td align="center"><strong>无Lora</strong></td>
