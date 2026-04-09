@@ -28,6 +28,8 @@ pip install -r requirements.txt
   <img src="keqing_dataset/keqing_08.png" width="45%" alt="刻晴训练图1">
   <br>
   <strong>无Lora</strong>
+</p>
+<p align="center">
   <img src="keqing_dataset/keqing_02.png" width="45%" alt="刻晴训练图2">
   <br>
   <strong>有Lora</strong>
